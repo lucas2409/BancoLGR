@@ -4,9 +4,9 @@ using System.Text;
 
 namespace BancoLGR.Entities.Enums
 {
-    enum Acesso
+    enum Acesso : int
     {
-        Admnistrador = 1,
-        Cliente = 2
+        administrador = 1,
+        cliente = 2
     }
 }
